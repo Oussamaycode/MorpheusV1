@@ -10,7 +10,7 @@
     <link href="https://fonts.bunny.net" rel="stylesheet" />
 
     <!-- Styles -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.tsx'])
 </head>
 <body class="antialiased">
     <div class="min-h-screen bg-gray-100">
