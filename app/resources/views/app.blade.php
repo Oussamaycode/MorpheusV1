@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net" rel="stylesheet" />
 
-    <!-- Styles -->
-    @vite(['resources/css/app.css', 'resources/js/app.tsx'])
+    <!-- Styles & React Refresh -->
+    @viteReactRefresh
+    @vite(['resources/css/app.css', 'resources/js/app.jsx'])
 </head>
 <body class="antialiased">
+    @inertia
     <div class="min-h-screen bg-gray-100">
         <!-- Navigation Bar (optional, often a component or include) -->
         {{-- @include('layouts.navigation') --}}
